@@ -1,0 +1,104 @@
+/* style.css */
+
+body, header, main {
+    text-align: center;
+}
+
+#welcome{
+    border-bottom: dashed 3px #ff00ff;
+}
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 10 20;
+    margin: 20px 150px;
+}
+
+.team-list li {
+    flex: 0 0 calc(25% - 20px); /* Two items per row */
+    margin: 10px;
+    text-align: center;
+}
+
+.team-list li img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-list li .description {
+    font-size: 14px;
+}
+
+.team-list management-team{
+    display: flex;
+    
+}
+.team-list management-team1{
+    display: flex;
+    flex: 0 0 calc(50% - 20px); /* Two items per row */
+    margin: 10px;
+    text-align: center;
+    
+}
+.team-list management-team2 {
+    flex: 0 0 calc(33.33% - 20px); /* Two items per row */
+    margin: 10px;
+    text-align: center;
+}
+.team-list team-list sales-marketing-team1 {
+    flex: 0 0 calc(25% - 10px); /* Two items per row */
+    margin: 10px;
+    text-align: center;
+}
+.team-list team-list sales-marketing-team2 {
+    flex: 0 0 calc(33.33% - 20px); /* Two items per row */
+    margin: 10px;
+    text-align: center;
+}
+.highlight {
+    border: 2px solid #ff00ff; 
+    padding: 3px 5px; 
+    background-color: #ff00ff;
+    color: #f9f9f9;
+    border-radius: 8px; 
+}
+  
+  .top-right {
+    width: 100px;
+    height: 100px;
+    position: relative; 
+    left:90vw;
+    background-color:#ff00ff;
+    clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 0 100%, 49% 50%, 0 0);
+  }
+  
+ .bottom-right{
+    width: 100px;
+    height: 100px;
+    position: relative; 
+    left:90vw;
+    bottom:28vw;
+    background-color:#ff00ff;
+    clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 0 100%, 49% 50%, 0 0);
+ }
+
+ .top-left {
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    top:650px;
+    background-color:#ff00ff;
+    clip-path: polygon(100% 0%, 43% 53%, 100% 100%, 0 100%, 0 53%, 0 0);
+  }
+  .bottom-left {
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    top:1450px;
+    background-color:#ff00ff;
+    clip-path: polygon(100% 0%, 43% 53%, 100% 100%, 0 100%, 0 53%, 0 0);
+  }
